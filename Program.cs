@@ -10,6 +10,10 @@ namespace AdditionalFeaturesAssignment
     {
         static void Main(string[] args)
         {
+            const int a = 5;
+            var name = "is Five";
+            Console.WriteLine("{0}", a + " " + name);
+            Console.ReadLine();
         }
     }
 }
